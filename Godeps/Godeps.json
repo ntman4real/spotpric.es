@@ -1,0 +1,28 @@
+{
+	"ImportPath": "github.com/derekpitt/spotpric.es",
+	"GoVersion": "go1.4",
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-70-gc7477ad",
+			"Rev": "c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "2dbddebb8266b93c5e6b119efb54e89043186f3f"
+		},
+		{
+			"ImportPath": "github.com/phyber/negroni-gzip/gzip",
+			"Rev": "48f82605778a579cb8172122897f589e4023b537"
+		},
+		{
+			"ImportPath": "github.com/unrolled/render",
+			"Rev": "83f2ba57c12cec399ef137457b1957e41ef0bbe8"
+		},
+		{
+			"ImportPath": "gopkg.in/amz.v1/aws",
+			"Comment": "v1.0",
+			"Rev": "ad23e96a31d28364dc0290f44b1a922aba379e18"
+		}
+	]
+}

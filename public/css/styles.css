@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { overflow-y: scroll; }
+body { 
+  background: #fff; 
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #47525D;
+  font-size: 100%; 
+  line-height: 1.4em;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+
+h1{
+  font-size: 2.4em;
+  letter-spacing: -0.05em;
+  padding: .1em 0;
+  margin-bottom: 5px;
+  color: #0CA7D2;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+
+}
+
+h1 span{
+  font-size: 15px;
+  position: relative;
+  left: 3px;
+  font-weight: 300;
+  color: #47525D;
+  letter-spacing: .05em;
+}
+
+h2{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+table{
+  border-collapse:collapse;
+  width: 100%;
+}
+
+#header{
+  padding: 10px 28px;
+  margin-bottom: 20px;
+}
+
+
+.fix{
+}
+
+.fix thead{
+  background:#253A49;
+}
+
+thead{
+  color:white;
+  text-align: left;
+}
+
+th,td{
+  padding: 5px 10px;
+}
+
+tr td.highlight{
+  background-color: #DEEDE9;
+  color: #499C86;
+  font-weight: 600;
+}
+
+tr td.highlight-red{
+  color: #9C2E2E;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even){
+  background: #f7f8f9;
+}
+
+tbody tr:hover{
+ /* background: #D6DCE3;*/
+}
+
+tbody tr td:first-child, thead th:first-child {
+  padding-left: 30px;
+}
+
+
+
+.fixed{
+  top:0;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+
+.scrollMore{
+  margin-top:600px;
+}
+
+.up{
+  cursor:pointer;
+}
