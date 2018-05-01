@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"gopkg.in/amz.v1/aws"
+	"gopkg.in/amz.v3/aws"
 )
 
 type priceHistoryResponse struct {
@@ -25,13 +25,13 @@ func getPrices() (priceHistoryResponse, error) {
 
 	query := req.URL.Query()
 	query.Add("Action", "DescribeSpotPriceHistory")
-	query.Add("Version", "2015-03-01")
+	query.Add("Version", "2016-11-15")
 
 	var currentTime = time.Now().In(time.UTC).Format(time.RFC3339)
 	query.Add("Timestamp", currentTime)
 	query.Add("StartTime", currentTime)
 	query.Add("Filter.1.Name", "product-description")
-	query.Add("Filter.1.Value", "Linux/UNIX")
+	query.Add("Filter.1.Value", "Linux/UNIX (Amazon VPC)")
 
 	req.URL.RawQuery = query.Encode()
 
